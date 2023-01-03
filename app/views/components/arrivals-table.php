@@ -22,7 +22,7 @@
                                 }
                             }
                             ?>
-                            <?php foreach ($itemsList as $key => $value) {
+                            <?php foreach ($data as $key => $value) {
                                 if ($value["id_newArrivals"] === $id) {
                                     require_once 'updateProduct.php';
                                 } else {
