@@ -1,19 +1,19 @@
 
             <ul>
                 <li class="relative px-6 py-3 bg-norange">
-                    <a href="index.php/?c=newArrivals&a=show" class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 ">
+                    <a href="<?= ROOT ?>admin" class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 ">
                         <img src="<?= ROOT ?>assets/images/icons/arrivals.svg" alt="" class="w-5 h-5">
                         <span class="ml-4">new arrivals</span>
                     </a>
                 </li>
                 <li class="relative px-6 py-3 hover:bg-worange ">
-                    <a href="index.php/?c=features&a=show" class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 ">
+                    <a href="<?= ROOT ?>admin/features" class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 ">
                         <img src="<?= ROOT ?>assets/images/icons/featured.svg" alt="" class="w-5 h-5">
                         <span class="ml-4">Features</span>
                     </a>
                 </li>
                 <li class="relative px-6 py-3 hover:bg-worange ">
-                    <a href="index.php/?c=blog&a=show" class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 ">
+                    <a href="" class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 ">
                         <img src="<?= ROOT ?>assets/images/icons/blog.svg" alt="" class="w-5 h-5">
                         <span class="ml-4">Blog</span>
                     </a>
