@@ -21,7 +21,7 @@
 <body>
     
     
-<?php require_once 'nav.php' ?>
+<?php require_once 'components/nav.php' ?>
 
     <div class="slider-section pt-8">
         <figure>
