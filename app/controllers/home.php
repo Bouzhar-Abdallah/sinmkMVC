@@ -15,6 +15,13 @@ class Home extends Controller
         $data = $produitsModel->findAll();
         $this->view('home',$data,'arrivals');
     }
+    public function features($a = '', $b = '', $c = '')
+    {
+        $data = [];
+        $produitsModel = new Produit('features');
+        $data = $produitsModel->findAll();
+        $this->view('home',$data,'features');
+    }
    
 }
 

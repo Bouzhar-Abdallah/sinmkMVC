@@ -12,16 +12,16 @@
             <div class="absolute top-0 -left-full h-screen w-4/12 border opacity-0 group-focus:left-0 group-focus:opacity-100 transition-all duration-500">
                 <ul class="flex flex-col items-center w-full cursor-pointer pt-10">
 
-                    <a class="w-full" href="home.php">
+                    <a class="w-full" href="<?= ROOT ?>">
                         <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6 w-full">home</li>
                     </a>
-                    <a class="w-full" href="newArrivals.php">
+                    <a class="w-full" href="<?= ROOT ?>/home/arrivals">
                         <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6 w-full">New Arrival</li>
                     </a>
-                    <a class="w-full" href="features.php">
+                    <a class="w-full" href="<?= ROOT ?>/home/features">
                         <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6 w-full">Features</li>
                     </a>
-                    <a class="w-full" href="BLOG.php">
+                    <a class="w-full" href="<?= ROOT ?>/home/BLOG">
                         <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6 w-full">Blog</li>
                     </a>
                     <a class="w-full" href="#">
@@ -42,16 +42,16 @@
                 <figure class="line"></figure>
                 <figure class="line"></figure>
             </div> -->
-            <a href="home.php">
+            <a href="<?= ROOT ?>/home">
                 <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6">home</li>
             </a>
-            <a href="newArrivals.php">
+            <a href="<?= ROOT ?>/home/Arrivals">
                 <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6">New Arrival</li>
             </a>
-            <a href="features.php">
+            <a href="<?= ROOT ?>/home/features">
                 <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6">Features</li>
             </a>
-            <a href="BLOG.php">
+            <a href="<?= ROOT ?>/home/BLOG">
                 <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6">Blog</li>
             </a>
             <a href="#">

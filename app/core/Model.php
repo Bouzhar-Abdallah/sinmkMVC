@@ -24,7 +24,7 @@ class Model extends Database
     {
 
         $query = " select * from $this->table limit $this->limit offset $this->offset";
-        show($query);
+        //show($query);
         return $this->query($query);
     }
     public function where($data, $s= '*', $data_not = [])
