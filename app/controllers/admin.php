@@ -13,7 +13,7 @@ class Admin extends Controller
     public function index($a = '', $b = '', $c = '')
     {
         $data = [];
-        $produitsModel = new Produit('newArrivals');
+        $produitsModel = new Produit('newarrivals');
         $data = $produitsModel->findAll();
 
         

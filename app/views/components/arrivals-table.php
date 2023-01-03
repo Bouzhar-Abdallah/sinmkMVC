@@ -16,14 +16,14 @@
                         <tbody class="bg-white divide-y ">
 
                             <?php
-                            if (isset($_GET["a"])) {
-                                if ($_GET["a"] === 'newProductLine') {
+                            if ($id === 'new') {
+                                
                                     require_once 'newProductLine.php';
-                                }
+                                
                             }
                             ?>
                             <?php foreach ($data as $key => $value) {
-                                if ($value["id_newArrivals"] == $id) {
+                                if ($value["id"] == $id) {
                                     
                                     require_once 'updateProduct.php';
                                 } else {

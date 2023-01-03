@@ -1,7 +1,7 @@
 <?php 
 
 define('ROOT','http://localhost:8888/sinmkMVC/public/');
-define('DBNAME','sinmkt2');
+define('DBNAME','sinmkt3');
 define('DBHOST','localhost');
 define('DBUSER','root');
 define('DBPASS','root');
