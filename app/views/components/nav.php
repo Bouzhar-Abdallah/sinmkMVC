@@ -15,13 +15,13 @@
                     <a class="w-full" href="<?= ROOT ?>">
                         <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6 w-full">home</li>
                     </a>
-                    <a class="w-full" href="<?= ROOT ?>/home/arrivals">
+                    <a class="w-full" href="<?= ROOT ?>home/arrivals">
                         <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6 w-full">New Arrival</li>
                     </a>
-                    <a class="w-full" href="<?= ROOT ?>/home/features">
+                    <a class="w-full" href="<?= ROOT ?>home/features">
                         <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6 w-full">Features</li>
                     </a>
-                    <a class="w-full" href="<?= ROOT ?>/home/BLOG">
+                    <a class="w-full" href="<?= ROOT ?>home/BLOG">
                         <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6 w-full">Blog</li>
                     </a>
                     <a class="w-full" href="#">
@@ -42,16 +42,16 @@
                 <figure class="line"></figure>
                 <figure class="line"></figure>
             </div> -->
-            <a href="<?= ROOT ?>/home">
+            <a href="<?= ROOT ?>home">
                 <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6">home</li>
             </a>
-            <a href="<?= ROOT ?>/home/Arrivals">
+            <a href="<?= ROOT ?>home/Arrivals">
                 <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6">New Arrival</li>
             </a>
-            <a href="<?= ROOT ?>/home/features">
+            <a href="<?= ROOT ?>home/features">
                 <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6">Features</li>
             </a>
-            <a href="<?= ROOT ?>/home/BLOG">
+            <a href="<?= ROOT ?>home/BLOG">
                 <li class="text-dorange drop-shadow-md hover:bg-wgray py-4 px-6">Blog</li>
             </a>
             <a href="#">
