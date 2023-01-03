@@ -19,7 +19,7 @@
 			<meta name="description" content="Bienvenue chez sinmkt. Découvrez des meubles abordables et des idées d’aménagement intérieur pour des logements et portefeuilles de toutes tailles. Faites vos achats en ligne ou trouvez un magasin près de chez vous.">
     </head>
 </head>
-<body>
+<body class="min-h-screen">
     
     
 <?php require_once 'components/nav.php' ?>

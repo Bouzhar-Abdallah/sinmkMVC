@@ -129,10 +129,4 @@
         </div>
 
     </div>
-    <div class="clients">
-        <figure><img src="<?=ROOT?>assets/images/clients/c1.png" alt="" srcset=""></figure>
-        <figure><img src="<?=ROOT?>assets/images/clients/c2.png" alt="" srcset=""></figure>
-        <figure><img src="<?=ROOT?>assets/images/clients/c3.png" alt="" srcset=""></figure>
-        <figure><img src="<?=ROOT?>assets/images/clients/c4.png" alt="" srcset=""></figure>
-        <figure><img src="<?=ROOT?>assets/images/clients/c5.png" alt="" srcset=""></figure>
-    </div>
+    

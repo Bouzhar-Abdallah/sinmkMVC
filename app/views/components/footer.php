@@ -1,5 +1,11 @@
-
-    </div> <!-- popular products end -->
+<div class="mt-auto ">
+<div class="clients">
+        <figure><img src="<?=ROOT?>assets/images/clients/c1.png" alt="" srcset=""></figure>
+        <figure><img src="<?=ROOT?>assets/images/clients/c2.png" alt="" srcset=""></figure>
+        <figure><img src="<?=ROOT?>assets/images/clients/c3.png" alt="" srcset=""></figure>
+        <figure><img src="<?=ROOT?>assets/images/clients/c4.png" alt="" srcset=""></figure>
+        <figure><img src="<?=ROOT?>assets/images/clients/c5.png" alt="" srcset=""></figure>
+    </div>
     <div class="pseudo-footer">
         <div class="information">
             <h3>information</h3>
@@ -35,8 +41,9 @@
         <div class="div-icons">
             <i class='bx bxl-facebook'></i>
             <i class='bx bxl-instagram'></i>
-            <i class='bx bxl-linkedin' ></i>
-            <i class='bx bxl-pinterest' ></i>
+            <i class='bx bxl-linkedin'></i>
+            <i class='bx bxl-pinterest'></i>
         </div>
         <p>&copy Copyright. Designed And Developed By Abdallah </p>
     </footer>
+</div>
