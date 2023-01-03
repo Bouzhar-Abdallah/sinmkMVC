@@ -6,11 +6,13 @@ module.exports = {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        'worange': '#2B2D42',
-        'cadeth': '#404363',
-        'cadethh': '#DADBE7',
-        
-        }
+        'norange': '#EA9010',
+        'worange': '#FFF3E2',
+        'dorange': '#151513',
+        'ngray': '#C9C9C9',
+        'wgray': '#F8F9FC',
+        'dgray': '#444545',
+      }
     },
   },
   plugins: [],
