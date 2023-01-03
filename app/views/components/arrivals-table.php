@@ -23,7 +23,8 @@
                             }
                             ?>
                             <?php foreach ($data as $key => $value) {
-                                if ($value["id_newArrivals"] === $id) {
+                                if ($value["id_newArrivals"] == $id) {
+                                    
                                     require_once 'updateProduct.php';
                                 } else {
                                     require 'showLine.php';

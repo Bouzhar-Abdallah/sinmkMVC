@@ -2,7 +2,7 @@
 
 class Controller
 {
-    public function view($name, $data = [], $component = '', $id = 0)
+    public function view($name, $data = [], $component = '', $id = 10)
     {
         if (!empty($data)) extract($data);
         
