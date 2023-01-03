@@ -11,19 +11,20 @@ class Model extends Database
     public      $errors       = [];
     public      $feddbacks    = [];
 
-    function __construct()
+    function __construct($table)
     {
         if (!property_exists($this,'table')) 
         {
-            $this->table = strtolower($this::class);
+            //$this->table = strtolower($this::class);
+            $this->table = strtolower($table);
         }
     }
 
     public function findAll()
     {
 
-        $query = " select * from $this->table order by $this->order_column $this->order_type limit $this->limit offset $this->offset";
-
+        $query = " select * from $this->table limit $this->limit offset $this->offset";
+        show($query);
         return $this->query($query);
     }
     public function where($data, $s= '*', $data_not = [])

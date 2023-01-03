@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?=ROOT?>assets/css/style-home.css">
 <div class="slider-section pt-8">
         <figure>
             <div class="slider">
@@ -94,7 +95,7 @@
 
 
 
-
+    
     <div class="best-selling-container">
         <div class="product1 product">
             <img src="<?=ROOT?>assets/images/populer-products/p1.png" alt="">
