@@ -10,6 +10,13 @@ class Home extends Controller
         //show($_SESSION);
         $this->view('home',$data,'home');
     }
+    public function blog($a = '', $b = '', $c = '')
+    {
+        $data = [];
+        
+        //show($_SESSION);
+        $this->view('home',$data,'blog');
+    }
     public function arrivals($a = '', $b = '', $c = '')
     {
         $data = [];
