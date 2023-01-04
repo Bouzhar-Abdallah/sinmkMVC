@@ -37,7 +37,7 @@
                 </button>
 
                 <div class=" w-6 h-6  rounded-lg md:block">
-                    <a href="<?= ROOT ?>admin">
+                    <a href="<?= ROOT.'admin/'.$table?>">
                         <img src="<?= ROOT ?>assets/images/icons/cancel.svg" alt="" srcset="">
                     </a>
                 </div>

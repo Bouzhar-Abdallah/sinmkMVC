@@ -4,9 +4,14 @@ class Controller
 {
     public function view($name, $data = [], $component = '', $id = 'new')
     {
-        if (!empty($data)) extract($data);
-        $table = $data['table'];
-        unset($data['table']);
+        
+        if (!empty($data)) 
+        {
+            $data['table'] = '';
+            extract($data);
+            $table = $data['table'];
+            unset($data['table']);
+        }
         $componentfile = '../app/views/components/' . $component . '.php';
         $filename = '../app/views/' . $name . '.view.php';
 

@@ -4,7 +4,7 @@
         <?php echo basename(__FILE__, '-table.php') ?> dashboard 
     </h1>
     <div class=" w-6 h-6  rounded-full md:block">
-        <a href="<?= ROOT ?>admin/new">
+        <a href="<?= ROOT.'admin/'.$table.'/new'?>">
             <img src="<?= ROOT ?>assets/images/icons/add2.svg" alt="" srcset="">
         </a>
     </div>
