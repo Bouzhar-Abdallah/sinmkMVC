@@ -1,6 +1,6 @@
 <tr class="text-dgray">
     <!-- add -->
-    <form action="../pages/?c=<?php echo $choice; ?>&a=saveNew" id="productInfo" name="productInfo" method="post" enctype="multipart/form-data">
+    <form action="<?= ROOT ?>admin/create/<?=$table?>" id="productInfo" name="productInfo" method="POST" enctype="multipart/form-data">
         <td class="px-4 py-3">
             <div class="flex items-center text-sm">
                 <div class="relative w-12 h-12 mr-3 rounded-lg md:block">
@@ -11,7 +11,7 @@
                 </div>
                 <div class="flex flex-col gap-y-2">
 
-                    <input name="produit" class="rounded-lg p-1 w-full border-solid drop-shadow-md " placeholder="nom produit" type="text">
+                    <input name="nom" class="rounded-lg p-1 w-full border-solid drop-shadow-md " placeholder="nom produit" type="text">
                     <input name="categorie" class="rounded-lg p-1 w-full border-solid drop-shadow-md " placeholder="categorie" type="text">
                 </div>
             </div>
@@ -30,13 +30,14 @@
         </td>
         <td class="px-4 py-3">
             <div class="flex items-center space-x-4 text-sm">
-
                 <button class=" w-6 h-6  rounded-lg md:block" form="productInfo" type="submit">
-                    <img src="<?= ROOT ?>assets/images/icons/save.svg" alt="" srcset="">
+                 
+                        <img src="<?= ROOT ?>assets/images/icons/save.svg" alt="" srcset="">
+      
                 </button>
 
                 <div class=" w-6 h-6  rounded-lg md:block">
-                    <a href="?a=cancel">
+                    <a href="<?= ROOT ?>admin">
                         <img src="<?= ROOT ?>assets/images/icons/cancel.svg" alt="" srcset="">
                     </a>
                 </div>
