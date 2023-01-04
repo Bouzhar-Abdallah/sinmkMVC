@@ -25,7 +25,7 @@
                                             </a>
                                         </div>
                                         <div class=" w-6 h-6   rounded-full md:block">
-                                        <a href="#">
+                                        <a href="<?= ROOT.'admin/delete/'.$table.'/'.$value["id"]?>">
                                                 <img src="<?= ROOT ?>assets/images/icons/delete2.svg" alt="" srcset="">
                                             </a>
                                         </div>

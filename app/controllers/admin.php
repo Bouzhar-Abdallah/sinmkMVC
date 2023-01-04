@@ -51,11 +51,21 @@ class Admin extends Controller
     {
         $data = $_POST;
         if (!empty($_FILES['image']['tmp_name'])) {
-            $payLoad['image'] = file_get_contents($_FILES['image']['tmp_name']);
-            
+            $data['image'] = file_get_contents($_FILES['image']['tmp_name']);
         }
+       
         $produitsModel = new Produit($table);
         $produitsModel->update($id,$data);
+
+        redirect('admin/'.$table);
+        //$this->view('admin',$data,'features-table');
+    }
+    public function delete($table = '', $id = '', $c = '')
+    {
+        
+       
+        $produitsModel = new Produit($table);
+        $produitsModel->delete($id);
 
         redirect('admin/'.$table);
         //$this->view('admin',$data,'features-table');
