@@ -6,6 +6,8 @@ class Home extends Controller
     public function index($a = '', $b = '', $c = '')
     {
         $data = [];
+        
+        //show($_SESSION);
         $this->view('home',$data,'home');
     }
     public function arrivals($a = '', $b = '', $c = '')
