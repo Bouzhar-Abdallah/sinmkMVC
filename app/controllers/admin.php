@@ -19,6 +19,15 @@ class Admin extends Controller
         
         $this->view('admin',$data,'arrivals-table',$id);
     }
+    public function newarrivals($id = '', $b = '', $c = '')
+    {
+        $data = [];
+        $produitsModel = new Produit('newarrivals');
+        $data = $produitsModel->findAll();
+        $data['table'] = 'newarrivals';
+        
+        $this->view('admin',$data,'arrivals-table',$id);
+    }
     public function features($id = '', $b = '', $c = '')
     {
         $data = [];

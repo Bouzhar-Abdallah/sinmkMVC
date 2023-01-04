@@ -20,7 +20,7 @@
                                         
                                         <div class=" w-6 h-6  rounded-full md:block">
                                             
-                                            <a href="#">
+                                            <a href="<?= ROOT.'admin/'.$table.'/'.$value["id"]?>">
                                                 <img src="<?= ROOT ?>assets/images/icons/edit2.svg" alt="" srcset="">
                                             </a>
                                         </div>
