@@ -66,7 +66,7 @@
                 if ($_SESSION["login"] === 'admin') {
                     echo '<a href="'.ROOT.'admin"><i class="fa-solid fa-gear"></i></a>
                             
-                            <a href="../../index.php?a=logout"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>';
+                            <a href="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>';
                 }
             } else {
                 echo '<a href="' . $_SERVER["PHP_SELF"] . '?a=log"><i class="fa-solid fa-user"></i></a>';

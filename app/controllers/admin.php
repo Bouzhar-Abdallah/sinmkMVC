@@ -3,13 +3,13 @@
 
 class Admin extends Controller
 {
-   /*  function __construct()
+    function __construct()
     {
         
-        if ($_SESSION['USER']['role'] != 'admin') {
+        if ($_SESSION['login'] != 'admin') {
             redirect('home');
         }
-    } */
+    }
     public function index($id = '', $b = '', $c = '')
     {
         $data = [];
