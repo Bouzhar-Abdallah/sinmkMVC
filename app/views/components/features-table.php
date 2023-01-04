@@ -1,6 +1,14 @@
-<h1 class="my-6 text-2xl capitalize font-semibold text-gray-700 ">
-                    <?php echo basename(__FILE__, '-table.php') ?> dashboard
-                </h1>
+<div class="flex gap-5 items-center">
+
+    <h1 class="my-6 text-2xl capitalize font-semibold text-gray-700 ">
+        <?php echo basename(__FILE__, '-table.php') ?> dashboard 
+    </h1>
+    <div class=" w-6 h-6  rounded-full md:block">
+        <a href="<?= ROOT ?>admin/new">
+            <img src="<?= ROOT ?>assets/images/icons/add2.svg" alt="" srcset="">
+        </a>
+    </div>
+</div>
     <div class="w-full overflow-hidden rounded-lg shadow-md">
                 <div class="w-full overflow-x-auto">
                     <table class="w-full table-fixed whitespace-no-wrap ">

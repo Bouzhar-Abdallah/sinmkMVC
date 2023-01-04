@@ -17,11 +17,7 @@
                                 <td class="px-4 py-3 h-20"><?php echo $value["description"] ?></td>
                                 <td class="px-4 py-3">
                                     <div class="flex items-center space-x-4 text-sm">
-                                        <div class=" w-6 h-6  rounded-full md:block">
-                                            <a href="<?php echo $_SERVER["PHP_SELF"] ?>?a=newProductLine">
-                                                <img src="<?= ROOT ?>assets/images/icons/add2.svg" alt="" srcset="">
-                                            </a>
-                                        </div>
+                                        
                                         <div class=" w-6 h-6  rounded-full md:block">
                                             
                                             <a href="#">
